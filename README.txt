@@ -1,0 +1,1 @@
+SET DEBUG=investmentmanagement:* & npm start

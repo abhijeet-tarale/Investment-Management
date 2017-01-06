@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="stylesheets/stylish-portfolio.css" rel="stylesheet">
+	
+	<!-- bootstrap helper-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/js/bootstrap-formhelpers.min.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-formhelpers/2.3.0/css/bootstrap-formhelpers.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Welcome</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Services</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Investment Management</h1>
+            <h3>The right place to track all your Investments</h3>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Get All the details of your investment at one place!</h2>
+                    <p class="lead"></p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <hr class="large">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+							  <span class="fa fa-pencil-square-o fa-5x" aria-hidden="true"></span>
+                                <h4>
+                                    <strong>New Investment!</strong>
+									
+                                </h4>
+								 <p>Add them below.</p>
+                                <a href="#addInvestment" class="btn btn-light">Add Investment</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                             <div class="service-item">
+								<span class="fa fa-money fa-5x" aria-hidden="true"></span>
+                                <h4>
+                                    <strong>View Investment!</strong>
+                                </h4>
+								 <p>How much have you invested?.</p>
+                                <a href="#viewInvestment" class="btn btn-light">View Investment</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+								<span class="fa fa-check-square-o fa-5x" aria-hidden="true"></span>
+                                <h4>
+                                    <strong>Leading Investments</strong>
+                                </h4>
+								 <p>View the list of leading investments.</p>
+                                <a href="#portfolio" class="btn btn-light">View leading Investment</a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                           <div class="service-item">
+								<span class="fa fa-check-square-o fa-5x" aria-hidden="true"></span>
+                                <h4>
+                                    <strong>Leading Investments</strong>
+                                </h4>
+								 <p>View the list of leading investments.</p>
+                                <a href="#portfolio" class="btn btn-light">View leading Investment</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Invest at the Right place!</h1>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="addInvestment" class="portfolio">
+            
+        <div class="container">
+				<form>
+				 
+				  <div class="form-group">
+				   <div class="form-group">
+					<label for="BankName">Name of the Bank</label>
+					<input type="text" class="form-control" id="BankName"  placeholder="Enter Bank Name" required data-validation-required-message="Enter Bank details">					
+				  </div>
+					<div class="bfh-selectbox bfh-currencies" data-currency="INR" data-flags="true">
+					  <input type="hidden" value="">
+					  <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+						<span class="bfh-selectbox-option input-medium" data-option=""></span>
+						<b class="caret"></b>
+					  </a>
+					  <div class="bfh-selectbox-options">
+						<input type="text" class="bfh-selectbox-filter">
+						<div role="listbox">
+						<ul role="option">
+						</ul>
+						</div>
+					  </div>
+					</div>
+					<div class="form-inline">
+                      <div class="form-group ">
+                         <div class="col-lg-9">
+                        <label class="sronly" for="prinipalAmount">Enter Principal Amount</label> 
+                        <input type="text" id="prinipalAmount" name="prinipalAmount" class="form-control input-sm" style="width:170px"  placeholder="" required maxlength="2" data-validation-required-message="Amount is required" >
+                        </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-lg-9">
+                         <label class="sronly" for="intrestRate">Interest Rate?</label> 
+                         <input type="text" id="intrestRate" name="intrestRate" class="form-control input-sm" style="width:60px"  placeholder="%" required maxlength="2" data-validation-required-message="Intrest Rate is required" >
+                         </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-lg-9">
+                          <label class="sronly" for="investmentTenure">Investment tenure?</label> 
+                          <input type="text" id="investmentTenure" name="investmentTenure" class="form-control input-sm" style="width:60px"  placeholder="MM" required maxlength="2" data-validation-required-message="Month is required" >
+						  <input type="text" id="investmentTenure" name="investmentTenure" class="form-control input-sm" style="width:60px"  placeholder="YY" required maxlength="4" data-validation-required-message="Year is required" >
+                        </div>
+						
+					   </div>
+						<div class="form-group">
+							<div class="col-lg-9">
+							  <label class="sronly" for="maturityAmount">Maturity Amount</label> 
+							  <input type="text" id="maturityAmount" name="maturityAmount" class="form-control input-sm" style="width:70px"  placeholder="Maturity" required maxlength="4"  disabled>
+							</div>
+						</div>
+					</div>		
+				  </div>
+				 <div>
+					<label>Select the Investment Date!</label>
+						<div class="bfh-datepicker">
+							  <div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+								<span class="add-on"><i class="icon-calendar"></i></span>
+								<input type="text" class="input-medium" readonly>
+							  </div>
+							<div class="bfh-datepicker-calendar">
+							<table class="calendar table table-bordered">
+								<thead>
+								<tr class="months-header">
+								  <th class="month" colspan="4">
+									<a class="previous" href="#"><i class="icon-chevron-left"></i></a>
+									<span></span>
+									<a class="next" href="#"><i class="icon-chevron-right"></i></a>
+								  </th>
+								  <th class="year" colspan="3">
+									<a class="previous" href="#"><i class="icon-chevron-left"></i></a>
+									<span></span>
+									<a class="next" href="#"><i class="icon-chevron-right"></i></a>
+								  </th>
+								</tr>
+								<tr class="days-header">
+								</tr>
+							  </thead>
+							  <tbody>
+							  </tbody>
+							</table>
+						  </div>
+						</div>
+					</div>
+				  <div class="form-group">
+					<label for="exampleTextarea">Got Something to remember?Note it down!</label>
+					<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+				  </div>
+				  <div class="form-group">
+					<label for="exampleInputFile">Attach Receipt</label>
+					<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+					<small id="fileHelp" class="form-text text-muted">Attch copy of the investment receipts.</small>
+				  </div>
+				  <fieldset class="form-group">
+					<legend>Radio buttons</legend>
+					<div class="form-check">
+					  <label class="form-check-label">
+						<input type="checkbox" class="form-check-input" name="optionsCheckbox" id="remindByEmail" value="remindByEmail" checked>
+						Do you want to be notified by email on Maturity?
+					  </label>
+					</div>
+				  </fieldset>
+				  <button type="submit" class="btn btn-primary">Save</button>
+				</form>
+        </div>
+        <!-- /.container -->
+    </section>
+ <!-- Portfolio -->
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <section id="viewInvestment" class="portfolio">
+            
+        <div class="container">
+				<form>
+				  <div class="form-group">
+					<div class="form-group">
+						<label for="BankName">Name of the Bank : </label>
+					</div>
+					<div class="form-group">
+						<label for="CurrencyType">Currency Type : </label>
+					</div>
+					<div class="form-inline">
+                      <div class="form-group ">
+                         <div class="col-lg-12">
+							<label class="sronly" for="prinipalAmount">Principal Amount : </label> 
+                        </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-lg-12">
+                         <label class="sronly" for="intrestRate">Interest Rate :</label> 
+                      </div>
+                      </div>
+                      <div class="form-group">
+							<div class="col-lg-12">
+							  <label class="sronly" for="investmentTenure">Investment tenure : </label> 
+							</div>
+					   </div>
+						<div class="form-group">
+							<div class="col-lg-12">
+								<label class="sronly" for="maturityAmount">Maturity Amount :</label> 
+							</div>
+						</div>
+					</div>		
+				  </div>
+				 <div>
+					<label>Investment Date :</label>
+				</div>
+					<div class="form-group">
+						<label for="exampleTextarea">Note :</label>
+					</div>
+				  <div class="form-group">
+					<label for="exampleInputFile">Receipt : </label>
+				  </div>
+				</form>
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12905.405669826014!2d73.93182739218987!3d15.366436919062776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb75289b5ef5f%3A0x725d94b34ab864f5!2sPersistent+Systems+Ltd.!5e0!3m2!1sen!2sin!4v1483607377567" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br />
+        <small>
+	
+            <a href="https://www.google.com/maps/preview/@15.3658153,73.9309501,7z"></a>
+        </small>
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Start Bootstrap</strong>
+                    </h4>
+                    <p>3481 Melrose Place
+                        <br>Beverly Hills, CA 90210</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="javascripts/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
